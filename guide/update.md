@@ -6,6 +6,7 @@
 
 ### Prerequisites
 - A brain
+
 - [Drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
 
 - [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (should already be installed)
@@ -46,9 +47,9 @@ exit
 ### Installing drivers
 Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
 > When it asks you for the drive letter, enter X:
-  
 
-
+### Reboot your device
+> Reboot your device to boot back into Windows. If this boots you to Android, reflash the UEFI image through fastboot or by using the WOA Helper app
 
 ## Finished!
 
