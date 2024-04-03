@@ -7,7 +7,7 @@
 ### Prerequisites
 - A brain
 
-- [Windows on ARM64 image (Windows 11 only)](https://uupdump.net/)
+- [Windows on ARM image](https://worproject.com/esd)
 
 - [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
@@ -18,29 +18,27 @@
 ### Boot into TWRP
 > If your recovery has been replaced by the stock recovery, flash it again using
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
 
 #### Execute the msc script
 > If it asks you to run it once again, do so
-
 ```cmd
 adb shell msc
 ```
 
-### Start the Windows disk manager
-> Once the X3 Pro is detected as a disk
-> (if it isn't, replug the device)
+### Diskpart
+> [!WARNING]
+> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for taking the device to Xiaomi or flashing it with EDL, both of which will likely cost money)
 
 ```cmd
 diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINVAYU"
-
+> Use `list volume` to find it, replace "$" with the actual number of **WINVAYU**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Assign the letter X
@@ -48,17 +46,13 @@ select volume <number>
 assign letter x
 ```
 
-### Assign `Y` to esp volume
-
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, it's the one named "ESPVAYU"
-
+> Use `list volume` to find it, replace "$" with the actual number of **ESPVAYU**
 ```diskpart
 select volume <number>
 ```
 
 #### Assign the letter Y
-
 ```diskpart
 assign letter y
 ```
@@ -68,57 +62,28 @@ assign letter y
 exit
 ```
 
-  
-  
+### Installing Windows
 
-### Install
 
-> Replace `path\to\install.wim` with the actual path to install.wim,
-
-> `install.wim` is located in sources folder inside your ISO
-> (it might also be named `install.esd`)
-> You can get it either by mounting or extracting the ISO
-
-```cmd
-dism /apply-image /ImageFile:path\to\install.wim /index:1 /ApplyDir:X:\
-```
-
-### Check what type of panel you have
-
-> Open cmd
-
-```cmd
-adb shell panel
-```
-
-### Install Drivers
-
+### Installing drivers
 Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
 > When it asks you for the drive letter, enter X:
-  
 
-### Create Windows bootloader files
-
+#### Create Windows bootloader files
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-
-
 ### Unassign disk letters
-  
 > So that they don't stay there after disconnecting the device
-
 ```cmd
 diskpart
 ```
 
-
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, it's the one named "WINVAYU"
-
+> Use `list volume` to find it, replace "$" with the actual number of **WINVAYU**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Unassign the letter X
@@ -127,14 +92,12 @@ remove letter x
 ```
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, it's the one named "ESPVAYU"
-
+> Use `list volume` to find it, replace "$" with the actual number of **ESPVAYU**
 ```diskpart
-select volume <number>
+select volume $
 ```
 
 #### Unassign the letter Y
-
 ```diskpart
 remove letter y
 ```
@@ -144,29 +107,22 @@ remove letter y
 exit
 ```
 
-## Boot into Windows
-
-### Move the `<uefi.img>` file to the device
-
-```cmd
-adb push <uefi.img> /sdcard
-```
 
 
-### Make a backup of your existing boot image
 
-> You need to do it now and also after every ROM update.
-
-- To do this, go to the backup menu in TWRP
-
-- Select Boot, and make sure the Internal Storage (or SD if possible) is selected for the backup destination
-
-- Swipe!
-
-### Flash the uefi image from TWRP
-Navigate to the `uefi.img` file and flash it into boot
-
-## Boot back into Android
-> Use your backup boot image from TWRP
 
 ## Finished!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
