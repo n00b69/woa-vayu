@@ -1,15 +1,14 @@
 <img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
-
 # Running Windows on the POCO X3 Pro
-
-## Installation
 
 ## Partitioning your device
 
 ### Prerequisites
 - A brain
-- [Modified TWRP](../../../releases/Recoveries)
+
+- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
+
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
 ### Notes
@@ -32,13 +31,12 @@
 > 
 > If you dont use it and you face any errors, consider it your fault and consider yourself alone if you try asking for support as you have deferred from the main guide.
 
-##### Flash the modified TWRP recovery
+### Flash the modified TWRP recovery
 ```cmd
 fastboot flash recovery path\to\twrp.img reboot recovery
 ```
 
-##### Run the partitioning script
-
+#### Run the partitioning script
 > If it asks you to run it once again, do so
 
 > This is **optional** but you can **set custom sizes using this script**
@@ -51,8 +49,23 @@ fastboot flash recovery path\to\twrp.img reboot recovery
 adb shell partition
 ```
 
-#### Check if Android still starts
+### Check if Android still starts
 Just restart the phone, and see if Android still works
 
 
 ## [Next step: Installing Windows](/guide/install-2-en.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
