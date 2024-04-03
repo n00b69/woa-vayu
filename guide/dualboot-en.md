@@ -5,12 +5,9 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- ```Brain```
-- ```A rooted tablet```
-- ```Windows installed on the tablet```
-- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
-- [```WoA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
-- [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+- [UEFI image]()
+- [WoA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first
