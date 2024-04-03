@@ -9,8 +9,6 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
 
-- [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
-
 - [Drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
 
 - [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (should already be installed)
