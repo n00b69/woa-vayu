@@ -3,9 +3,44 @@
 # Running Windows on the POCO X3 Pro
 
 ## Optional post-install stuff
+Below you fill find a list of (optional) post-install stuff
+
+### Hiding the D: drive (modem partition)
+> [!NOTE]
+> This is recommended because this drive should not be modified, while some applications may try to write to it
+
+- Open a command prompt and run ```diskpart```
+- Then run ```list volume``` to see all available volumes
+- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
+- Remove the letter with ```remove letter d```
+- Now exit diskpart with ```exit```
+
+##### Finished!
+
+
+
+
+
+
+### Making the keyboard float
+> [!WARNING]  
+> Make sure these steps are done on the POCO X3 Pro running Windows!
+
+- Open CMD as an admin and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
+- Press 'y' then enter
+- Reboot your phone
+
+##### Finished!
+
+
+
+
+
+
+
+
 
 ### Provisioning the modem
-
 > [!WARNING]  
 > You will need to do this every time before you boot Windows if you want LTE!
 
@@ -27,7 +62,14 @@
 - Flash the zip
 - Boot into Windows
 
-## Finished!
+##### Finished!
+
+
+
+
+
+
+
 
 #### Provisioning the modem manually (longer/harder method)
 
@@ -76,34 +118,12 @@
 
 ```dd if=/dev/block/by-name/modemst2 of=/win/Windows/System32/DriverStore/FileRepository/qcremotefs8150_[insert random data here]/bootmodem_fs2```
 
-## Finished!
+##### Finished!
 
 
 
 
-### Making the keyboard float
 
-> [!WARNING]  
-> Make sure these steps are done on the POCO X3 Pro running Windows!
-
-##### Opening the command prompt as an administrator
-
-> This is self explanatory, this opens the command prompt as administrator
-
-- Go to the start menu
-- Search command prompt
-- Hold the command prompt application and run it as administrator
-- Approve any UAC dialogs
-
-##### Making the keyboard float
-
-> This deletes the registry key that tells the keyboard the size of our screen and makes it float again
-
-- In the command prompt put ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
-- Press 'y' then enter
-- Reboot your phone
-
-## Finished!
 
 
 
@@ -115,38 +135,29 @@
 >
 > Make sure these steps are done on the POCO X3 Pro running Windows!
 
-##### Opening the command prompt as an administrator
-
-> This is self explanatory, this opens the command prompt as administrator
-
-- Go to the start menu
-- Search command prompt
-- Hold the command prompt application and run it as administrator
-- Approve any UAC dialogs
-
-##### Disabling USB host mode
-
 > This edits the registry key to tell the USB Controller not to put the device into host mode
 
 - In the command prompt put ```reg add "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3```
 - Reboot your phone
 
-## Finished!
+##### Finished!
 
 
 
 
-### Hiding the D: drive (modem partition)
-> [!NOTE]
-> This is recommended because this drive should not be modified, while some applications may try to write to it
 
-- Open a command prompt and run ```diskpart```
-- Then run ```list volume``` to see all available volumes
-- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
-- Remove the letter with ```remove letter d```
-- Now exit diskpart with ```exit```
 
-## Finished!
+
+
+
+
+
+
+
+
+
+
+
 
 
 
