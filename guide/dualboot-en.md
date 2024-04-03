@@ -1,49 +1,47 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
 
-
-# Running Windows on the POCO X3 Pro
+# Running Windows on the Xiaomi Pad 5
 
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [Modified TWRP](../../../releases/Recoveries)
-- [NTFS Android Magisk Module](../../../releases/ntfsdroid)
-- [UEFI](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [Windows on Android Helper APK](https://github.com/woa-vayu/WoA-Helper-M3K/releases/latest)
-- [StA Installer](../../../releases/dualboot)
+- ```Brain```
+- ```A rooted tablet```
+- ```Windows installed on the tablet```
+- [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```WoA Helper app```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+- [```StA Installer```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
-### Phone Setup
+## Setting up the dualboot app
+> This guide assumes you are rooted, if you aren't, please follow the [root guide](2-rootguide-en.md) first
 
-#### Adding NTFS Support to android
-- Install Magisk if you haven't already
-- Install the NTFS Android magisk module through the Magisk manager
-
-#### Application Setup
+### Setup - Android
+- Download and install the WoA Helper app, then open it and grant it root access.
+- Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
+- Press the `MOUNT WINDOWS` button, then download and move **StA_Installer_nabu.exe** to the newly created `Windows` folder in your internal storage.
+- Return to the WoA Helper app and press `QUICKBOOT TO WINDOWS`.
+  
 > [!NOTE]
->
-> In order to mount Windows while you're booted in Android, you need to "shut down" Windows properly. To do this, restart Windows and then boot into TWRP as the screen fades to black. From here you can switch back to Android using the backup you made earlier.
-- Download the StA Installer and the Windows on Android Helper APK, then install the APK
-- Create a folder named "UEFI" on your internal storage
-- Copy the uefi image into the UEFI folder
-- Open the app and allow any root access it wants
-- Press the "BACKUP ANDROID BOOT" button, then dismiss the popup
-- Press the "Mount/Unmount Windows button, then dismiss the popup
-- Go to your file explorer and Windows should be mounted in sdcard/Windows (your internal storage). Move the StA Installer and boot.img backup into this folder
-- Return to the WOA helper app and press "Quickboot to Windows"
-- After Windows boots, run the StA installer in the C:\ directory
-> You may need to disable any antivirus software present, if the installer does not work
+> The first Windows boot can take up to 10 minutes, don't worry and just wait
+
+### Setup - Windows
+- Navigate to `C:\StA_Installer_nabu.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run
 
 #### Booting to Android
-  
-  - Run the new shortcut on your desktop as **ADMINISTRATOR**
+- Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
 
 #### Booting to Windows
-  
-  - Run the app
-  - Press "Quickboot to Windows"
-
-> If quickboot does not work, you may have shut down Windows incorrectly. If this happens, use the "Flash UEFI" button and manually reboot your phone.
+- Press `QUICKBOOT TO WINDOWS` inside the app, or use the newly created toggle in your quick settings panel
   
 ## Finished!
+
+
+
+
+
+
+
+
+
+
+
