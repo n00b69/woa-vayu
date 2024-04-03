@@ -13,15 +13,12 @@
 
 ### Notes
 > [!WARNING]  
-> If you ever delete any partitions via diskpart, Windows will send a UFS command which would erase the entire UFS storage!
-> 
-> All your data will be erased! Backup now if needed.
+> All your data will be erased! Back up now if needed.
 > 
 > Do not run the same command twice.
 > 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayualt).
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/vayuwoa).
 > 
->
 > Do not run all commands at once, execute them in order!
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
@@ -31,29 +28,24 @@
 > 
 > If you dont use it and you face any errors, consider it your fault and consider yourself alone if you try asking for support as you have deferred from the main guide.
 
-### Flash the modified TWRP recovery
+#### Flash the modded recovery
+> Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
 ```cmd
-fastboot flash recovery path\to\twrp.img reboot recovery
+fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
 
 #### Run the partitioning script
+> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
+> 
 > If it asks you to run it once again, do so
-
-> This is **optional** but you can **set custom sizes using this script**
-
-> To set custom sizes do ```adb shell partition [TARGET WINDOWS SIZE IN GB]```
-
-> Make sure you do not add GB at the end, just the number
-
 ```cmd
-adb shell partition
+adb shell partition $
 ```
 
 ### Check if Android still starts
 Just restart the phone, and see if Android still works
 
-
-## [Next step: Installing Windows](/guide/install-2-en.md)
+## [Next step: Installing Windows](/guide/2-install.md)
 
 
 
