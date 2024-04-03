@@ -6,7 +6,9 @@
 
 ### Prerequisites
 - [UEFI image]()
-- [WoA Helper app](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/woahelper.apk)
+
+- [WoA Helper app](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk)
+
 - [StA Installer](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
 
 ## Setting up the dualboot app
