@@ -1,5 +1,4 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
-
+<img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
 
@@ -7,10 +6,9 @@
 
 ### Prerequisites
 - A brain
-- [UEFI image](https://github.com/woa-vayu/msmnilePkg/releases/latest)
-- [Drivers](https://github.com/woa-vayu/Vayu-Drivers/releases/latest)
-- [Modified TWRP](../../../releases/Recoveries) (should already be installed)
+- [Drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
 
+- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (should already be installed)
 
 #### Boot into TWRP
 > If your recovery has been replaced by the stock recovery, flash it again using
