@@ -1,24 +1,22 @@
-<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
-
+<img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
 
 ## Project Status
-
 The project is finished. Some improvements might be made, but there won't be any driver updates.
 
 #### Features
-
-- [ ] Audio ```Only by USB or Bluetooth```
+- [ ] Audio
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Cellular ```Only SIM1; requires provisioning before every boot; calling doesn't work```
+- [x] Cellular
 - [x] Charging ```Slow. Check "Troubleshooting" for more info```
 - [x] Display
+- [x] Headphone jack
 - [x] GPU
-- [ ] SD ```Takes several attempts to be recognized and is very unstable```
+- [ ] SD ```Very unreliable```
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
@@ -34,6 +32,16 @@ The project is finished. Some improvements might be made, but there won't be any
 - [x] Proximity
 
 #### Security
-
 - [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
 - [x] TPM (Software Backed)
+
+
+
+
+
+
+
+
+
+
+
