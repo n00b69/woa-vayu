@@ -63,7 +63,13 @@ exit
 ```
 
 ### Installing Windows
+> Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 
+```cmd
+dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
+```
+
+> If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:<path\to\install.esd>`, then replace `index:6` with the actual index number of Windows 11 Pro in your image
 
 ### Installing drivers
 Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
@@ -107,11 +113,10 @@ remove letter y
 exit
 ```
 
+### Reboot your device
+> Set up your phone, then proceed to the last step
 
-
-
-
-## Finished!
+## [Last step: Setting up dualboot](/guide/dualboot.md)
 
 
 
