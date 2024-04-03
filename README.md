@@ -12,28 +12,24 @@ This project is in an early stage, all the files here have been contributed by o
 
 
 ## Get Started
+- [Project status](guide/status.md)
 
-- [Project status](guide/status-en.md)
+- [Installation instructions](guide/1-partition.md)
 
-- [Installation instructions](guide/install-1-en.md)
-
-- [Troubleshooting](guide/troubleshooting-en.md)
-
+- [Troubleshooting](guide/troubleshooting.md)
 
 ## Miscellaneous
+- [Dualboot setup](guide/dualboot.md) (do this AFTER the main installation guide!)
 
-- [Dualboot setup](guide/dualboot-en.md) (do this AFTER the main installation guide!)
+- [Optional post-install stuff](guide/postinstall.md)
 
-- [Optional post-install stuff](guide/postinstall-en.md)
+- [Driver updating instructions](guide/update.md)
 
-- [Driver updating instructions](guide/update-en.md)
+- [Reinstall instructions](guide/reinstall.md)
 
-- [Reinstall instructions](guide/reinstall-en.md)
-
-- [Uninstall instructions](guide/uninstall-en.md)
+- [Uninstall instructions](guide/uninstall.md)
 
 ## Contributors
-
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
