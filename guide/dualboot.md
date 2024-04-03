@@ -1,15 +1,15 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://github.com/woa-vayu/src_vayu_windows/blob/main/2Poco X3 Pro Windows.png" width="350" alt="Windows 11 Running On A Poco X3 Pro">
 
-# Running Windows on the Xiaomi Pad 5
+# Running Windows on the POCO X3 Pro
 
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- [UEFI image]()
+- [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
 - [WoA Helper app](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk)
 
-- [StA Installer](/dualboot/StA_Installer_vayu.exe)
+- [StA Installer](https://github.com/n00b69/woa-vayu/releases/download/Dualboot/StA_Installer_vayu.exe)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please follow the [root guide](root.md) first
