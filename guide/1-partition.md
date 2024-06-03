@@ -7,9 +7,9 @@
 ### Prerequisites
 - A brain
 
-- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
-
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+
+- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
 
 ### Notes
 > [!WARNING]  
