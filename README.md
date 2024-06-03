@@ -15,7 +15,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation instructions](guide/1-partition.md)
 
-- ~~[No PC installation instructions]()~~ W.I.P
+- ~~[No PC installation instructions](guide/nopc.md)~~ W.I.P
 
 - [Troubleshooting](guide/troubleshooting.md)
 
