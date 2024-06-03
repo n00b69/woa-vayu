@@ -20,6 +20,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [x] SMS
 - [x] Touchscreen
 - [x] LTE
+- [x] Microphone ```Bottom microphone only```
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
