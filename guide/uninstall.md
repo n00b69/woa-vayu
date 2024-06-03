@@ -20,8 +20,7 @@ If you want to relock your bootloader you'll need your partition table to be sto
 
 ### Flash and boot modified recovery
 ```cmd
-fastboot flash recovery path\to\moddedtwrp.img 
-fastboot reboot recovery
+fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
 
 #### Execute the restore script
@@ -40,7 +39,8 @@ adb shell restore
 fastboot flash partition:0 path\to\gpt_both0.bin
 ```
 
-#### Erase userdata to avoid bootloop and restore FS size
+#### Erase userdata
+> To avoid a bootloop and restore FS size
 ```cmd
 fastboot -w
 ```
