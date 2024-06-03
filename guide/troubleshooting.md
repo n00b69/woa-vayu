@@ -3,42 +3,51 @@
 # Running Windows on the POCO X3 Pro
 
 ## Troubleshooting Issues
+> Below you will find a list of common problems and their solutions
+
+## Cannot mount Windows in Android
+If mounting Windows produces an empty folder, you either don't have Windows installed, or your rom does not have mount support.
+
+##### Done!
+
+
+## Cannot write to Windows in Android
+> This is caused by shutting down Windows instead of restarting it.
+- To solve this, boot to Windows and then press "restart", then as the screen shuts off boot to TWRP and from there load up Android.
+- Or, disable hibernation in Windows using [this](https://github.com/n00b69/woa-beryllium/releases/tag/1.0) script 
+> Alternatively, if you have already set up the Switch to Android app, simply use this to switch to Android.
+
+##### Done!
+
 
 ## Charging in Windows does not work
 > [!WARNING]
-> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](https://github.com/woa-vayu/Port-Windows-11-POCO-X3-Pro/blob/main/guide/postinstall-en.md#disabling-usb-host-mode).
+> Do not use a powered USB hub with host mode enabled, this can potentially break your device. If you use a powered USB hub, please use the [disable USB host mode guide](/guide/English/Additional-materials-en.md#Disabling-USB-host-mode)
 
-> Charging in Windows only works on specific cables, regardless of whether USB host mode is on or off.
+Charging in Windows only works on specific cables. Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), and the Nimaso 100W USB-C to USB-C fast charging cable.
 
-Cables that have been known to work are the original Poco X3 Pro cable (identified by the additional orange/red pin in the USB-A port), the Nimaso 100W USB-C to USB-C fast charging cable, and the Nintendo Switch charger.
+##### Done!
 
-##### Finished!
 
 ## Device can boot into Android but not bootloader
-> This is caused by partitions with volume names the bootloader cannot handle, to fix this:
-- Boot to recovery
-- Run ```parted /dev/block/sda```
+> This is caused by having partitions with a name longer  than 16 characters, such as **Basic data partition**, which has 20 characters
+- Reboot to the modded recovery and in the built-in terminal run
+```cmd
+parted /dev/block/sda
+```
 - Run ```print``` to list all partitions
-- Look for partitions that have spaces in the names e.g **Basic Data Partition** and note their volume number
-- Now run ```rm <vol number>``` e.g ```rm 36```
+- Look for partitions that are more than 16 characters long, for example "Basic Data Partition" and note their volume number
+- Rename this partition with ```name $ test```, replacing **$** with the partition number, and replacing **test** with the name you want the partition to have
 - Run ```quit```
+- Reboot to bootloader in the reboot menu to check if fastboot works again
 
-##### Finished!
+##### Done!
 
-## Cannot mount the win partition in Android or WoA Helper doesn't work
-- You may encounter an error when trying to mount the Windows partition
-- "The disk contains an unclean file system (0, 0).
-Metadata kept in Windows cache, refused to mount.
-Falling back to read-only mount because the NTFS partition is in an
-unsafe state. Please resume and shutdown Windows fully (no hibernation or fast restarting.)
-Could not mount read-write, trying read-only"
 
-- If you have windows installed you have an "unclean file system"
-- An unclean file system happens when windows is put in a hibernation state or you've done a force reboot
 
-To fix this simply reboot into windows and **REBOOT** from Windows **NOT SHUTDOWN**
 
-##### Finished!
+
+
 
 
 
