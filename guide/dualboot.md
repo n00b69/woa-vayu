@@ -7,24 +7,23 @@
 ### Prerequisites
 - [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
-- [WoA Helper app](https://github.com/Marius586/WoA-Helper-update/blob/main/woahelper.apk)
-
-- [StA Installer](https://github.com/n00b69/woa-vayu/releases/download/Dualboot/StA_Installer_vayu.exe)
+- [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
 ## Setting up the dualboot app
-> This guide assumes you are rooted, if you aren't, please follow the [root guide](root.md) first
+> This guide assumes you are rooted, if you aren't, please follow [this guide](root.md) first.
 
 ### Setup - Android
-- Download and install the WoA Helper app, then open it and grant it root access.
+- Download and install the **WOA Helper** app, then open it and grant it root access.
 - Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
-- Press the `MOUNT WINDOWS` button, then download and move **StA_Installer_vayu.exe** to the newly created `Windows` folder in your internal storage.
-- Return to the WoA Helper app and press `QUICKBOOT TO WINDOWS`.
-  
-> [!NOTE]
-> The first Windows boot can take up to 10 minutes, don't worry and just wait
+- Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**.
+> [!Important]
+> If `/sdcard/Windows` is empty, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the StA files, which are also generated in your internal storage.
+>
+> Do the same thing if the folder is read-only.
+- Press the **QUICKBOOT TO WINDOWS** button.
 
 ### Setup - Windows
-- Navigate to `C:\StA_Installer_vayu.exe` and run it. If it doesn't work, make sure that any antivirus software is off, as it will probably not let the app run
+- Navigate to `C:\sta` and create a shortcut of **sta.exe** to your desktop, if one isn't already present
 
 #### Booting to Android
 - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
@@ -33,9 +32,6 @@
 - Press `QUICKBOOT TO WINDOWS` inside the app, or use the newly created toggle in your quick settings panel
   
 ## Finished!
-
-
-
 
 
 
