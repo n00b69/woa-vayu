@@ -46,6 +46,7 @@
 - After a few seconds a login popup should show up. Enter your HRXU account details here and press **Request Auth Flashing**.
 > [!Note]
 > If the tool is stuck and does not flash, reboot your device by holding **power** for +- 30 seconds (you may need to use a combination of **power** + either **volume** buttons if it doesn't work) until you hear the USB disconnect sound on your PC.
+- After it says **flash done**, reboot your device by holding **power** +- 14 seconds.
 
 ### Reflashing your rom with MiFlash
 > [!Important]
