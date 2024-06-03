@@ -3,10 +3,10 @@
 # Running Windows on the POCO X3 Pro
 
 ## Project Status
-The project is finished. Some improvements might be made, but there won't be any driver updates.
+This project has reached its final stages. Small improvements may be made, but don't expect major improvements (such as working camera)
 
 #### Features
-- [ ] Audio
+- [x] Audio ```3.5MM only```
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness
@@ -14,10 +14,12 @@ The project is finished. Some improvements might be made, but there won't be any
 - [x] Cellular
 - [x] Charging ```Slow. Check "Troubleshooting" for more info```
 - [x] Display
-- [x] Headphone jack
+- [ ] Flashlight
 - [x] GPU
-- [ ] SD ```Very unreliable```
+- [x] SD ```Unreliable```
+- [x] SMS
 - [x] Touchscreen
+- [x] LTE
 - [x] UFS
 - [x] USB
 - [x] Wi-Fi
