@@ -15,14 +15,16 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation instructions](guide/1-partition.md)
 
+- ~~[No PC installation instructions]()~~ W.I.P
+
 - [Troubleshooting](guide/troubleshooting.md)
 
 ## Miscellaneous
-- [Dualboot setup](guide/dualboot.md) (do this AFTER the main installation guide!)
+- [Dualboot setup](guide/dualboot.md)
 
-- [Optional post-install stuff](guide/postinstall.md)
+- [Additional materials](guide/materials.md)
 
-- [Driver updating instructions](guide/update.md)
+- [Update drivers](guide/update.md)
 
 - [Reinstall instructions](guide/reinstall.md)
 
@@ -49,6 +51,8 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="belomaxorka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54049465?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/belomaxorka)
 [<img alt="nedokaka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104865210?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/nedokaka)
 [<img alt="Nx0Ri" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/152011726?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Nx0Ri)
+[<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
+[<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 
 
 
