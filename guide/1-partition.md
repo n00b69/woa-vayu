@@ -17,19 +17,25 @@
 > 
 > Do not run the same command twice.
 > 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/vayuwoa).
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/winonvayualt).
 > 
 > Do not run all commands at once, execute them in order!
->
-> YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
 > [!IMPORTANT]
-> Make sure you use the MODDED TWRP Recovery throughout this whole tutorial as we provide tools to help aid this installation process and make it as easy as possible for you.
+> Make sure you use the MODDED Recovery throughout this whole tutorial as we provide tools to help aid this installation process and make it as easy as possible for you.
 > 
-> If you dont use it and you face any errors, consider it your fault and consider yourself alone if you try asking for support as you have deferred from the main guide.
+> If you don't use it and you face any errors, consider it your fault and consider yourself alone if you try asking for support as you have deferred from the main guide.
+
+### Opening CMD as an admin
+> Download **platform-tools** and extract the folder somewhere, then open CMD as an admin.
+>
+> Replace **path\to** with the actual path to the platform-tools folder, for example **C:\platform-tools**
+```cmd
+cd path\to\platform-tools
+```
 
 #### Flash the modded recovery
-> Open a CMD window inside the platform-tools folder, then (while your phone is in fastboot mode) run
+> Replace **path\to** with the actual path to the modded recovery image
 ```cmd
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
