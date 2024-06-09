@@ -27,9 +27,11 @@
 > If you don't use it and you face any errors, consider it your fault and consider yourself alone if you try asking for support as you have deferred from the main guide.
 
 ### Opening CMD as an admin
-> Download **platform-tools** and extract the folder somewhere, then open CMD as an admin.
+> Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
 >
-> Replace **path\to** with the actual path to the platform-tools folder, for example **C:\platform-tools**
+> It is recommended to keep this window open and use it throughout the entire guide.
+> 
+> Replace **path\to** with the actual path to the platform-tools folder, for example **C:\platform-tools**.
 ```cmd
 cd path\to\platform-tools
 ```
