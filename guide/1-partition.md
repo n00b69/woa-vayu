@@ -31,7 +31,7 @@
 >
 > It is recommended to keep this window open and use it throughout the entire guide.
 > 
-> Replace **path\to** with the actual path to the platform-tools folder, for example **C:\platform-tools**.
+> Replace `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
 ```cmd
 cd path\to\platform-tools
 ```
