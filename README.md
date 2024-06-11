@@ -4,7 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woahelperchat)
 
 ## ⚠️ Warning
-We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back in to android for the alarm.
+We're not responsible for bricked devices, missing recovery partitions, dead xiaomi factoryline ~~workers~~ cowboys, dead microSD cards, dead pmics, dead ram, dead display ics, dead cpus, any xiaomi/poco shenanigans, dead cats or dogs, nuclear wars or you getting fired because you forgot to boot back into android for the alarm.
 
 This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
@@ -48,7 +48,6 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="proganime1200" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/32473502?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/proganime1200)
 [<img alt="KuatoDev" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17999613?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/KuatoDev)
 [<img alt="belomaxorka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54049465?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/belomaxorka)
-[<img alt="nedokaka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104865210?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/nedokaka)
 [<img alt="Nx0Ri" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/152011726?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Nx0Ri)
 [<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
