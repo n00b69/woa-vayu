@@ -45,8 +45,9 @@ exit
 ```
 
 ### Installing drivers
-Unpack the Drivers archive you've downloaded earlier and run the `OfflineUpdater_<paneltype>.cmd` script
-> When it asks you for the drive letter, enter X:
+> Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+
+> If it asks you to enter a letter, enter the drive letter of **WINVAYU** (which should be **X**), then press enter
 
 ### Reboot your device
 > Reboot your device to boot back into Windows. If this boots you to Android, reflash the UEFI image through fastboot or by using the WOA Helper app
