@@ -5,8 +5,6 @@
 ## Installing Windows
 
 ### Prerequisites
-- A brain
-
 - [Windows on ARM image](https://worproject.com/esd)
 
 - [Drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
@@ -61,6 +59,9 @@ exit
 ```
 
 ### Installing Windows
+> [!Warning]
+> DO NOT USE 24H2!!!
+
 > Replace `path\to\install.esd` with the actual path of **install.esd** (it may also be named install.wim)
 ```cmd
 dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
