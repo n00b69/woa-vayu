@@ -6,7 +6,8 @@
 This project has reached its final stages. Small improvements may be made, but don't expect major improvements (such as working camera)
 
 #### Features
-- [x] Audio ```3.5MM only```
+- [ ] Audio (Speakers)
+- [x] Audio (3.5mm)
 - [X] Battery status
 - [x] Bluetooth
 - [x] Brightness
@@ -16,7 +17,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [x] Display
 - [ ] Flashlight
 - [x] GPU
-- [x] SD ```Unreliable```
+- [x] SD
 - [x] SMS
 - [x] Touchscreen
 - [x] LTE
