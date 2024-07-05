@@ -50,13 +50,6 @@
 - After a few seconds a login popup should show up. Enter your HRXU account details here and press **Request Auth Flashing**.
 - After it says **flash done**, reboot your device by holding **power** +- 14 seconds.
 
-### Reflashing your rom with MiFlash
-> [!Important]
-> This tool only flashes the rom to one slot. If your device ever switches slots, it'll boot back into EDL again.
-- Reboot to fastboot mode.
-- Flash the fastboot rom a second time using **MiFlash** or with the **flash_all.bat** file in the rom.
-- Reboot after it finishes flashing.
-
 ## Finished!
 
 
