@@ -23,7 +23,7 @@
 ### Booting into FFU mode
 - Plug your phone into your computer while booted in Android and press **Manual Mode** (the rotation icon on the left) in WOA Device Manager. 
 
-- In the newly opened menu, click **Switch to Windows-mode** and wait for the QR code and wrench icon to appear 
+- In the newly opened menu, click **Switch to Windows-mode**, then hold the **volume down** button until the QR code and wrench icons appear on the screen.
 
 ### Flashing the FFU Image
 - Click on **Flash** (the wrench icon on the left) in WOA Device Manager, then select your FFU file and click **Flash FFU Image**. 
