@@ -13,7 +13,7 @@ This project is in an early stage, all the files here have been contributed by o
 ## Get started
 - [Project status](guide/status.md)
 
-- [Installation instructions](guide/1-partition.md)
+- [Installation instructions](guide/installation-selection.md)
 
 - ~~[No PC installation instructions](guide/nopc.md)~~ W.I.P
 
