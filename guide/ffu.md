@@ -5,6 +5,8 @@
 ## Installing Windows (FFU method) 
 
 ### Prerequisites
+- A device running Windows 10 or higher
+
 - [FFU image](https://t.me/woavayuffu) 
 
 - [WOA Device Manager](https://github.com/n00b69/woa-vayu/releases/download/Files/WOA_Device_Manager.zip) 
