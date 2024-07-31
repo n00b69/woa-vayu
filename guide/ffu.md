@@ -32,7 +32,10 @@
 ### Flashing the FFU Image
 - Click on **Flash** (the wrench icon on the left) in WOA Device Manager, then select your FFU file and click **Flash FFU Image**. 
 
-- Wait until the FFU image has flashed and the green check mark appears, after which your phone should boot back into Android. 
+- Wait until the FFU image has flashed and the green check mark appears, after which your phone should boot back into Android.
+
+> [!Note]
+> If it does not boot into Android, reboot into recovery by holding the **volume up** + **power** buttons, and do a factory reset there.
 
 ## [Next step: Setting up dualboot](dualboot.md)
 
