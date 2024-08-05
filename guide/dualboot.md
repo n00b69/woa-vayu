@@ -31,7 +31,7 @@
 - Run the new shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
 
 #### Booting to Windows
-- Press `QUICKBOOT TO WINDOWS` inside the app, or use the newly created toggle in your quick settings panel
+- Press **QUICKBOOT TO WINDOWS** inside the app, or use the newly created toggle in your quick settings panel
   
 ## Finished!
 
