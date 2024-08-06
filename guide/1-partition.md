@@ -42,6 +42,12 @@ cd path\to\platform-tools
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
 
+#### Backing up your boot image
+> This will back up your boot image in the current directory
+```cmd
+adb pull /dev/block/by-name/boot boot.img
+```
+
 ### Run the partitioning script
 > Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
 > 
@@ -51,9 +57,9 @@ adb shell partition $
 ```
 
 ### Check if Android still starts
-Just restart the phone, and see if Android still works
+- Just restart the phone, and see if Android still works
 
-## [Next step: Installing Windows](/guide/2-install.md)
+## [Next step: Rooting your phone](/guide/2-root.md)
 
 
 
