@@ -18,7 +18,6 @@
 - Download and install **Magisk**, then open it.
 - Press **Install** > **Patch a file** and select the **boot.img** you just copied.
 - Once the patching has finished, locate  **magisk_patched-27000_XXXX.img** in your **Downloads** folder and copy it into the **platform-tools** folder on your computer.
-- Rename
 
 ### Reboot to fastboot mode
 ```cmd
