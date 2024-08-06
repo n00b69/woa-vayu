@@ -37,7 +37,7 @@ cd path\to\platform-tools
 ```
 
 #### Flash the modded recovery
-> Replace `path\to` with the actual path to the modded recovery image
+> Replace `path\to\moddedtwrp.img` with the actual path to the modded recovery image
 ```cmd
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
