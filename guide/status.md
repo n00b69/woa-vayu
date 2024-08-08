@@ -12,15 +12,14 @@ This project has reached its final stages. Small improvements may be made, but d
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Cellular
-- [x] Charging ```Slow. Check "Troubleshooting" for more info```
+- [x] Charging ```VERY slow```
 - [x] Display
 - [ ] Flashlight
 - [x] GPU
-- [x] SD
+- [x] SD card
 - [x] SMS
 - [x] Touchscreen
-- [x] LTE
+- [x] LTE ```Doesn't always work```
 - [x] Microphone ```Bottom microphone only```
 - [x] UFS
 - [x] USB
