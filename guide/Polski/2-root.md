@@ -42,7 +42,7 @@ fastboot reboot
 ### Kopiowanie zrootowanego obrazu rozruchu
 > Gdy już twój telefon się włączy
 
-- A superuser request for Shell might appear on your phone's screen. If it does, grant it access.
+- Na ekranie telefonu może pojawić się prośba o udzielenie uprawnień superużytkownika Powłoce. Jeśli tak się stanie, udziel dostępu.
 ```cmd
 adb shell "su -c cp dev/block/by-name/boot /sdcard/root.img" & adb pull /sdcard/root.img
 ```
