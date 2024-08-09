@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/n00b69/woa-polaris/blob/main/polaris.png" width="350" alt="Windows 11 running on polaris">
+<img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
-# Windows na Xiaomi Mix 2s
+# Windows na POCO X3 Pro
 
 ## Tworzenie partycji
 
@@ -9,12 +9,12 @@
 
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Zmodyfikowane recovery OFOX](https://github.com/n00b69/woa-polaris/releases/download/Files/ofox.img)
+- [Zmodyfikowane recovery](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
 
 ### Uwagi
 > [!Warning]  
 > 
-> NIE URUCHAMIAJ PONOWNIE TELEFONU! Jeśli uważasz, że popełniłeś błąd, poproś o pomoc na [Telegramie](https://t.me/WinOnMIX2S).
+> NIE URUCHAMIAJ PONOWNIE TELEFONU! Jeśli uważasz, że popełniłeś błąd, poproś o pomoc na [Telegramie](https://t.me/woahelperchat.
 > 
 > Nie uruchamiaj wszystkich poleceń na raz, wykonuj je po kolei!
 
@@ -31,17 +31,7 @@ cd ścieżka\do\platform-tools
 #### Instalacja OFOX
 > Otwórz okno CMD w folderze platform-tools, a następnie (gdy telefon jest w trybie fastboot) wpisz
 ```cmd
-fastboot flash recovery ścieżka\do\ofox.img reboot recovery
-```
-
-### Tworzenie kopii zapasowej ważnych plików
-> Spowoduje to utworzenie kopii zapasowej plików **fsc**, **fsg**, **modemst1** i **modemst2** w bieżącej ścieżce, w której otwarto CMD (na przykład **C:\platform-tools**). Przed kontynuowaniem upewnij się, że te pliki rzeczywiście tam są.
->
-> Trzymaj tę kopię zapasową w bezpiecznym miejscu. Jeśli oprogramowanie Twojego urządzenia kiedykolwiek ulegnie uszkodzeniu, możesz potrzebować tej kopii, gdyż w przeciwnym wypadku telefon może już nigdy nie być w stanie wykonywać połączeń.
-> 
-> Jeśli chcesz utworzyć kopię zapasową czegoś innego, zrób to teraz. Twoje dane Androida zostaną usunięte w kolejnych krokach.
-```cmd
-cmd /c "for %i in (fsg,fsc,modemst1,modemst2) do (adb shell dd if=/dev/block/by-name/%i of=/tmp/%i.bin & adb pull /tmp/%i.bin)"
+fastboot flash recovery ścieżka\do\moddedtwrp.img reboot recovery
 ```
 
 #### Tworzenie kopii zapasowych obrazu rozruchu
