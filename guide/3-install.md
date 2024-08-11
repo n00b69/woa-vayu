@@ -71,7 +71,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > If you get `Error 87`, check the index of your image with `dism /get-imageinfo /ImageFile:path\to\install.esd`, then replace `index:6` with the actual index number of **Windows 11 Pro** in your image
 
 ### Copying your boot.img into Windows
-- Drag and drop the **root.img** from the last page of the guide into the **WINVAYU** disk in Windows Explorer, then rename it to **boot.img**.
+- Drag and drop the **root.img** from the **platform-tools** folder into the **WINVAYU** disk in Windows Explorer, then rename it to **boot.img**.
 
 ### Installing Drivers
 - Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
@@ -89,10 +89,27 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Reboot your device
-> Set up your phone, then proceed to the last step
+### Reboot to fastboot
+```cmd
+adb reboot bootloader
+```
+
+#### Boot into the UEFI
+> Replace `path\to\vayu-uefi.img` with the actual path of the UEFI image
+```cmd
+fastboot boot path\to\vayu-uefi.img
+```
+
+### Reboot to Android
+Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Last step: Setting up dualboot](/guide/4-dualboot.md)
+
+
+
+
+
+
 
 
 
