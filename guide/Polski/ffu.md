@@ -20,7 +20,7 @@
 ## Uruchomienie trybu FFU
 - Podłącz telefon do komputera, który jest włączony w systemie Android i kliknij **Manual Mode** (ikona obracania w lewo) w Menedżerze urządzeń WOA.
 
-Jeśli Menedżer urządzeń WOA nie wykrywa Twojego urządzenia, zrestartuj telefon w trybie **fastboot** (trzymanie klawiszy **głośniejszego** + **włączania**, dopóki nie pojawi się logo fastboot).
+> Jeśli Menedżer urządzeń WOA nie wykrywa Twojego urządzenia, zrestartuj telefon w trybie **fastboot** (trzymanie klawiszy **głośniejszego** + **włączania**, dopóki nie pojawi się logo fastboot).
 
 - W nowo otwartym menu kliknij **Switch to Windows-mode**, a następnie trzymaj klawisz **głośniejszego**, dopóki na ekranie telefonu nie pojawią się ikony QR i klucza.
 
