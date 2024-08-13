@@ -29,7 +29,7 @@
 
 - Poczekaj, aż obraz FFU zostanie spalony i pokaże zielony znak potwierdzenia, po czym telefon powinien zrestartować i uruchomić system Android.
 
-> [!Uwaga]
+> [!Note]
 > Jeśli telefon nie uruchamia się w systemie Android, zrestartuj go w trybie odzyskiwania (trzymanie klawiszy **głośniejszego** + **włączania**) i wykonaj pełny reset w menu odzyskiwania.
 
 ## Następny krok: [Konfiguracja dual boot](dualboot.md)
