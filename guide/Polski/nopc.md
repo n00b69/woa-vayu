@@ -48,7 +48,7 @@ partition $
 ### Uruchomienie WinInstaller
 - W TWRP, wejdź do **Zainstaluj** i znajdź **WinInstaller.zip**, a następnie zainstaluj go.
 - Poczekaj, aż zostaną ukończone wszystkie operacje i uruchomi się instalator Windows.
-> [!Wskazówka]
+> [!Tip]
 > Jeśli chcesz pominąć logowanie do konta Microsoft, kliknij **Nie mam internetu** na stronie Wi-Fi, a potem **Kontynuuj z ograniczonym ustawieniem**.
 
 #### Uruchamianie systemu Android
