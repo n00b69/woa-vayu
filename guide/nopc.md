@@ -18,8 +18,6 @@
 
 - [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
 
-- [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
-
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
 ### Notes
