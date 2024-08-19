@@ -66,7 +66,7 @@ dism /apply-image /ImageFile:ścieżka\do\install.esd /index:6 /ApplyDir:X:\
 > Jeśli pojawi się komunikat `Błąd 87`, sprawdź indeks obrazu za pomocą polecenia `dism /get-imageinfo /ImageFile:ścieżka\do\install.esd`, a następnie zastąp `index:6` rzeczywistym numerem indeksu systemu **Windows 11 Pro** w Twoim obrazie
 
 ### Kopiowanie obrazu rozruchu do Windowsa
-- Zaznacz i upuść **root.img** z poprzedniego kroku do **WINVAYU** w eksploratorze plików, a następnie zmień mu nazwę na **boot.img**.
+- Zaznacz i upuść **rooted_boot.img** z poprzedniego kroku do **WINVAYU** w eksploratorze plików, a następnie zmień mu nazwę na **boot.img**.
 
 ### Instalowanie sterowników
 - Wypakuj archiwum ze sterownikami, a następnie otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
