@@ -12,10 +12,10 @@ Ten projekt nie jest aktywnie aktulizowany, aktualizacje mogą w końcu pojawić
 - [x] Bluetooth
 - [x] Sterowanie jasnością
 - [ ] Kamera
-- [x] LTE ```Problematyczne```
+- [x] LTE
 - [x] Ładowanie ```BARDZO powolne```
 - [x] Wyświetlacz
-- [ ] Latarka
+- [x] Latarka
 - [x] Karta graficzna
 - [x] Karta SD
 - [x] SMS
