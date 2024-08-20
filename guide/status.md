@@ -14,12 +14,12 @@ This project has reached its final stages. Small improvements may be made, but d
 - [ ] Camera
 - [x] Charging ```VERY slow```
 - [x] Display
-- [ ] Flashlight
+- [x] Flashlight
 - [x] GPU
 - [x] SD card
 - [x] SMS
 - [x] Touchscreen
-- [x] LTE ```Doesn't always work```
+- [x] LTE
 - [x] Microphone ```Bottom microphone only```
 - [x] UFS
 - [x] USB
