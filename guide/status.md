@@ -14,7 +14,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [ ] Camera
 - [x] Charging ```VERY slow```
 - [x] Display
-- [x] Flashlight
+- [x] Flashlight ```Problematic```
 - [x] GPU
 - [x] SD card
 - [x] SMS
