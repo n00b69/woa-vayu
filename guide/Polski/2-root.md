@@ -44,7 +44,7 @@ fastboot reboot
 
 - Na ekranie telefonu może pojawić się prośba o udzielenie uprawnień superużytkownika Powłoce. Jeśli tak się stanie, udziel dostępu.
 ```cmd
-adb shell "su -c cp dev/block/by-name/boot /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
+adb shell "su -c cp /dev/block/by-name/boot /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
 ```
 
 ## [Następny krok: Instalacja Windowsa](3-install.md)
