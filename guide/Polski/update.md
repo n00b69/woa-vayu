@@ -5,11 +5,11 @@
 ## Aktualizowanie sterowników
 
 ### Wymagania
-- [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
-  
+- [Zmodyfikowane recovery](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
+
 - [Sterowniki](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
 
-- [Zmodyfikowane recovery](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
+- [Obraz UEFI](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
 ### Uruchom recovery
 > Jeśli Twój recovery został zastąpiony recovery domyślnym, sflashuj go ponownie za pomocą
@@ -45,12 +45,18 @@ exit
 ```
 
 ### Instalowanie sterowników
+> [!Note]
+> This process will take +- 20 minutes. Do not worry, this is normal.
+
 - Wypakuj archiwum ze sterownikami, a następnie otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINVAYU** (która powinna być X), a następnie naciśnij enter.
 
 ### Uruchom ponownie system Windows
-> Uruchom ponownie urządzenie, aby ponownie uruchomić system Windows. Jeśli spowoduje to uruchomienie systemu Android, ponownie wykonaj flashowanie obrazu UEFI poprzez fastboot lub za pomocą aplikacji WOA Helper
+> Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
+```cmd
+adb reboot
+```
 
 ## Skończone!
 
