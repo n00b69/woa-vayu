@@ -2,14 +2,14 @@
 
 # Running Windows on the POCO X3 Pro
 
-## Driver updating
+## Updating drivers
 
 ### Prerequisites
-- A brain
+- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (should already be installed)
 
 - [Drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
 
-- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (should already be installed)
+- [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
 ### Boot into TWRP
 > If your recovery has been replaced by the stock recovery, flash it again using
@@ -45,12 +45,18 @@ exit
 ```
 
 ### Installing drivers
-> Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
+> [!Note]
+> This process will take +- 20 minutes. Do not worry, this is normal.
+
+- Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
 > If it asks you to enter a letter, enter the drive letter of **WINVAYU** (which should be **X**), then press enter
 
 ### Reboot your device
-> Reboot your device to boot back into Windows. If this boots you to Android, reflash the UEFI image through fastboot or by using the WOA Helper app
+> Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
+```cmd
+adb reboot
+```
 
 ## Finished!
 
