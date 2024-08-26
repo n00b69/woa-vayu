@@ -46,14 +46,14 @@ exit
 
 ### Instalowanie sterowników
 > [!Note]
-> This process will take +- 20 minutes. Do not worry, this is normal.
+> Ten proces zajmie +- 20 minut. Nie martw się, to normalne.
 
 - Wypakuj archiwum ze sterownikami, a następnie otwórz plik `OfflineUpdater.cmd` (jeśli pojawi się błąd, otwórz `OfflineUpdaterFix.cmd`)
  
 > Jeśli poprosi Cię o podanie litery, wpisz literę dysku **WINVAYU** (która powinna być X), a następnie naciśnij enter.
 
 ### Uruchom ponownie system Windows
-> Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
+> Pamiętaj, aby zmienić także obraz UEFI w systemie Android, w przeciwnym razie podczas późniejszego uruchamiania systemu Windows może pojawić się „niebieski ekran śmierci” (BSoD).
 ```cmd
 adb reboot
 ```
