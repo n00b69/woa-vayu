@@ -5,11 +5,13 @@
 ## Installing Windows
 
 ### Prerequisites
+- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (should already be installed)
+
 - [Windows on ARM image](https://worproject.com/esd)
 
 - [Drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
 
-- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (should already be installed)
+- [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
 ### Boot into TWRP
 > If your recovery has been replaced by the stock recovery, flash it again using
