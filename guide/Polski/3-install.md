@@ -86,6 +86,17 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
+### Reboot to fastboot
+```cmd
+adb reboot bootloader
+```
+
+#### Boot into the UEFI
+> Replace `path\to\vayu-uefi.img` with the actual path of the UEFI image
+```cmd
+fastboot boot path\to\vayu-uefi.img
+```
+
 ### Uruchamianie ponownie do Androida
 Telefon powinien uruchomić się ponownie sam po +- 10 minutach czekania, po których uruchomi się Android, aby wykonać ostatni krok.
 
