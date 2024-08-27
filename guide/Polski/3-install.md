@@ -86,15 +86,15 @@ bcdboot X:\Windows /s Y: /f UEFI
 mountvol y: /d
 ```
 
-### Reboot to fastboot
+### Uruchamianie ponownie w trybie fastboot
 ```cmd
 adb reboot bootloader
 ```
 
-#### Boot into the UEFI
-> Replace `path\to\vayu-uefi.img` with the actual path of the UEFI image
+#### Uruchom do UEFI
+> Zastąp `ścieżka\do\vayu-uefi.img` rzeczywistą ścieżką do obrazu UEFI
 ```cmd
-fastboot boot path\to\vayu-uefi.img
+fastboot boot ścieżka\do\vayu-uefi.img
 ```
 
 ### Uruchamianie ponownie do Androida
