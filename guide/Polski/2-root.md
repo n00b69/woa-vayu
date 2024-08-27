@@ -7,8 +7,6 @@
 ### Wymagania
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
 ### Skopiowanie obecnego obrazu rozruchu do Androida
 - Podłącz telefon do komputera (z włączonym debugowaniem USB)
 - W oknie na telefonie zezwól na dostęp do plików z poziomu komputera. Jeśli okno nie wyskoczy, przejdź do panelu powiadomień i kliknij na powiadomienie odnośnie USB, a następnie zmień rodzaj połączenia na **przesyłanie plików**.
