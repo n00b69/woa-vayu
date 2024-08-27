@@ -7,8 +7,6 @@
 ### Prerequisites
 - [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-
 ### Copying your boot image to Android
 - Connect your phone to your computer (with USB debugging enabled).
 - Click the prompt on your phone to allow your computer to access your phone's data. If no prompt appears, go to your notification panel and click the USB notification, then change the connection type to **transferring files**.
