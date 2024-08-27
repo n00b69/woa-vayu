@@ -5,11 +5,13 @@
 ## Instalacja Windowsa
 
 ### Wymagania
+- [Zmodyfikowane recovery](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
+
 - [Windows na ARM](https://worproject.com/esd)
   
 - [Sterowniki](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
-  
-- [Zmodyfikowane recovery](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
+
+- [Obraz UEFI](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
 ### Uruchomienie recovery
 > Jeśli recovery zostało zastąpione recovery domyślnym, sflashuj go ponownie za pomocą
