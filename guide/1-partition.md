@@ -5,7 +5,7 @@
 ## Partitioning your device
 
 ### Prerequisites
-- A brain
+- Unlocked bootloader
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
