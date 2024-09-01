@@ -28,9 +28,9 @@ W tym przewodniku założono, że posiadasz roota, a jeśli tak nie jest, postę
 - Naciśnij **SZYBKI START DO WINDOWS** w aplikacji lub użyj nowego przełącznika w panelu szybkich ustawień
 
 > [!Important]
-> If you ever update or change your Android ROM, make sure to create a new **boot.img** backup (after rooting your phone!) and place it inside the **C:\ folder** in Windows, overwriting the old file.
+> Jeśli kiedykolwiek będziesz aktualizować lub zmieniać ROM, pamiętaj o utworzeniu nowej kopii zapasowej **boot.img** (po zrootowaniu telefonu!) i umieść ją w folderze C:\ w systemie Windows, zastępując stary plik.
 >
-> You can use the **BACK UP BOOT IMAGE** feature in the WOA Helper app to do so.
+> Możesz w tym celu skorzystać z funkcji **KOPIA OBRAZU ROZRUCHU** w aplikacji WOA Helper.
 
 ## Skończone!
 
