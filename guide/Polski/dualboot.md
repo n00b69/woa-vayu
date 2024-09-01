@@ -5,8 +5,6 @@
 ## Konfiguracja dualboot
 
 ### Wymagania
-- [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-
 - [Obraz UEFI](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
 - [WOA Helper](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
