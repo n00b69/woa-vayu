@@ -32,7 +32,12 @@ W tym przewodniku założono, że jesteś zrootowany, jeśli tak nie jest, post�
 
 #### Uruchamianie systemu Windows
 - Naciśnij **SZYBKI START DO WINDOWS** w aplikacji lub użyj nowo utworzonego przełącznika w panelu szybkich ustawień
-  
+
+> [!Important]
+> Jeśli kiedykolwiek będziesz aktualizować lub zmieniać ROM, pamiętaj o utworzeniu nowej kopii zapasowej **boot.img** (po zrootowaniu telefonu!) i umieść ją w folderze C:\ w systemie Windows, zastępując stary plik.
+>
+> Możesz w tym celu skorzystać z funkcji **KOPIA OBRAZU ROZRUCHU** w aplikacji WOA Helper.
+
 ## Skończone!
 
 
