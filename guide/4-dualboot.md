@@ -5,8 +5,6 @@
 ## Dualboot guide
 
 ### Prerequisites
-- [Magisk](https://github.com/topjohnwu/Magisk/releases/latest)
-
 - [UEFI image](https://github.com/n00b69/woa-vayu/releases/tag/UEFI)
 
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
@@ -28,7 +26,12 @@ This guide assumes you are rooted, if you aren't, please follow [this guide](roo
 
 #### Booting to Windows
 - Press **QUICKBOOT TO WINDOWS** inside the app, or use the newly created toggle in your quick settings panel
-  
+
+> [!Important]
+> If you ever update or change your Android ROM, make sure to create a new **boot.img** backup (after rooting your phone!) and place it inside the **C:\ folder** in Windows, overwriting the old file.
+>
+> You can use the **BACK UP BOOT IMAGE** feature in the WOA Helper app to do so.
+
 ## Finished!
 
 
