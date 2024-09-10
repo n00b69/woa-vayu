@@ -81,7 +81,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > If it asks you to enter a letter, enter the drive letter of **WINVAYU** (which should be **X**), then press enter
 
 #### Create Windows bootloader files
-> If any error shows up, such as "Failure when initializing library system volume.", open `diskpart` again and assign any new letter to **ESPVAYU**, then replace the letter `Y` in the next command with the letter that you just added.
+> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPVAYU**, then replace the letter `Y` in the next command with the letter that you just added.
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```
