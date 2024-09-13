@@ -6,7 +6,7 @@
 This project has reached its final stages. Small improvements may be made, but don't expect major improvements (such as working camera)
 
 #### Features
-- [ ] Audio (Speakers)
+- [x] Audio (Speakers)
 - [x] Audio (3.5mm)
 - [X] Battery status
 - [x] Bluetooth
