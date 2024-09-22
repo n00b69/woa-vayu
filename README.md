@@ -18,8 +18,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Installation instructions](guide/installation-selection.md)
 
-- ~~[No PC installation instructions](guide/nopc.md)~~ W.I.P
-
 - [Troubleshooting](guide/troubleshooting.md)
 
 ## Miscellaneous
