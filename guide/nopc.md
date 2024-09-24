@@ -60,14 +60,14 @@ partition $
 
 ### Flashing WinInstaller
 - In TWRP, select **Install** and then locate **WinInstaller.zip** and flash it.
-- Wait untill all processes complete and Windows setup appears. (It will take 10 to 15 minutes and eventually reboot 2 or 3 times).
-> [!Tip]
-> If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
+- Wait untill all processes complete and your debice boots back into Android. This will take around 10-15 minutes.
 
-### Reboot into TWRP to restore cust
-- Hold the **volume up** + **power** buttons until it boots you into TWRP.
+### Restoring the cust partition
+- Boot back into TWRP.
 - In TWRP, select **Install** and then locate **CustRestore.zip** in the `Downloads` folder and flash it
 - Reboot your device to boot back into Windows.
+> [!Tip]
+> If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
 
 #### Booting to Android
 - Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access).
