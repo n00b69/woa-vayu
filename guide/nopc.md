@@ -11,7 +11,7 @@
 ### Prerequisites
 - A rooted POCO X3 Pro
 
-- [Vayu WinInstaller]
+- [Vayu WinInstaller](https://github.com/Kumar-Jy/WinInstaller/releases/tag/Vayu_WinInstaller)
 
 - [Windows on ARM image](https://worproject.com/esd)
 
@@ -66,7 +66,7 @@ partition $
 
 ### Reboot into TWRP to restore cust
 - Hold the **volume up** + **power** buttons until it boots you into TWRP.
-- In TWRP, select **Install** and then locate **custrestore.zip** in the `Downloads` folder and flash it
+- In TWRP, select **Install** and then locate **CustRestore.zip** in the `Downloads` folder and flash it
 - Reboot your device to boot back into Windows.
 
 #### Booting to Android
