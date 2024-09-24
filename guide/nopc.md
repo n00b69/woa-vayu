@@ -15,9 +15,7 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
 
-- [Drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers)
-
-- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
+- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery) (this one is different from the TWRP linked elsewhere in the guide, make sure you use this one only)
 
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
@@ -56,7 +54,6 @@ partition $
 - Just restart the phone, and see if Android still works
 
 ### Preparing necessary files
-- Download the [drivers](https://github.com/n00b69/woa-vayu/releases/tag/Drivers) and rename the zip to **Driver.zip**. Make sure it remains in the `Downloads` folder.
 - Download the [Windows image](https://worproject.com/esd) and rename it to **install.esd**. Make sure it remains in the `Downloads` folder.
 - Download and install the [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA), then open it and grant it root access. Do not do anything else inside the app yet.
 - Now reboot to the modified TWRP. Flash it again if it has been replaced by MIUI recovery.
@@ -68,10 +65,10 @@ partition $
 > If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
 
 #### Booting to Android
-- Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access)
+- Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access).
 
 #### Booting to Windows
-- Press **QUICKBOOT TO WINDOWS** inside the WOA Helper app, or use the newly created toggle in your quick settings panel
+- Press **QUICKBOOT TO WINDOWS** inside the WOA Helper app, or use the newly created toggle in your quick settings panel.
 
 ## Finished!
 
