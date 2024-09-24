@@ -54,7 +54,7 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
 [<img alt="Dawid2849" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/77780707?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Dawid2849)
-
+[<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 
 
 
