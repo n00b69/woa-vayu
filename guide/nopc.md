@@ -9,7 +9,7 @@
 
 - [Vayu WinInstaller](https://github.com/Kumar-Jy/WinInstaller/releases/tag/Vayu_WinInstaller)
 
-- [Windows on ARM image](https://worproject.com/esd)
+- [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
 - [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
 
@@ -20,8 +20,6 @@
 > All your data will be erased! Back up now if needed.
 > 
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woahelperchat).
-> 
-> Do not run all commands at once, execute them in order!
 
 ### Flash the modified TWRP
 > While in fastboot mode, replace `path\to\moddedtwrp.img` with the actual path of the image.
@@ -50,7 +48,7 @@ partition $
 - Just restart the phone, and see if Android still works
 
 ### Preparing necessary files
-- Download the [Windows image](https://worproject.com/esd) and rename it to **install.esd**. Make sure it remains in the `Downloads` folder.
+- Download the Windows image and make sure it remains in the `Downloads` folder. Make sure it has an **.esd** extension, because other extensions are not supported.
 - Download and install the [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA), then open it and grant it root access. Do not do anything else inside the app yet.
 - Reboot to the modified TWRP. Flash it again if it has been replaced by MIUI recovery.
 
