@@ -3,10 +3,6 @@
 # Running Windows on the POCO X3 Pro
 
 ## Installing Windows without a PC
-> [!Warning]
-> THIS PAGE IS NOT YET FINISHED! DO NOT USE IT!
-> 
-> Seriously, do not use it until this warning is removed from this page.
 
 ### Prerequisites
 - A rooted POCO X3 Pro
