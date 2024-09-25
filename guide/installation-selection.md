@@ -2,7 +2,7 @@
 
 There are three methods to install Windows. Select the method you would like to use below.
 
-| **Install Windows manually** | **Install Windows using automated scripts** | **Flash a Full Flash Update (FFU) file**
+| **Install Windows manually** | **Install Windows using automated scripts** | ~~**Flash a Full Flash Update (FFU) file**~~
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------
 | <a href="1-partition.md"><img src="https://github.com/n00b69/woa-vayu/blob/main/guide/zmanual.png" width="80"></a> | <a href="nopc.md"><img src="https://github.com/n00b69/woa-vayu/blob/main/guide/znopc.png" width="80"></a> | <a href="ffu.md"><img src="https://github.com/n00b69/woa-vayu/blob/main/guide/zffu.png" width="80"></a>
 | - Complicated for inexperienced users | - Simple and quick | - ~~Simple and quick~~
