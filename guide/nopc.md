@@ -24,7 +24,7 @@
 ### Flash the modified TWRP
 > While in fastboot mode, replace `path\to\moddedtwrp.img` with the actual path of the image.
 >
-> If you don't have a PC, which is probable since you're following this guide instead of the PC method, you can use the **Termux** app on another (rooted) phone to do this.
+> If you don't have a PC, you can flash the modified TWRP through any non-stock recovery.
 ```cmd
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
