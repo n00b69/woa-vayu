@@ -62,6 +62,8 @@ partition $
 - Reboot your device to boot back into Windows.
 > [!Tip]
 > If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
+>
+> If there is no such button, press the **SIM card** button at the top of the screen (the one that says **Connected**), and press **Disconnect**.
 
 #### Booting to Android
 - Run the **Android** shortcut on your desktop (you can also pin it to your start menu / taskbar for ease of access).
