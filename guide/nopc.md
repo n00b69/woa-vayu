@@ -42,7 +42,7 @@ partition $
 ```
 
 #### Rooting your phone
-- If your phone isn't already rooted, you can flash Magisk at this point using rhe instructions in [the root guide](root.md), else continue to the next step.
+- If your phone isn't already rooted, you can flash Magisk at this point using the instructions in [the root guide](root.md), else continue to the next step.
 
 ### Check if Android still starts
 - Just restart the phone, and see if Android still works
@@ -54,7 +54,7 @@ partition $
 
 ### Flashing WinInstaller
 - In TWRP, select **Install** and then locate **WinInstaller.zip** and flash it.
-- Wait untill all processes complete and your debice boots back into Android. This will take around 10-15 minutes.
+- Wait untill all processes complete and your device boots back into Android. This will take around 10-15 minutes.
 
 ### Restoring the cust partition
 - Boot back into TWRP.
