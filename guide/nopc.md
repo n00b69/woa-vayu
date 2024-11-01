@@ -48,7 +48,7 @@ partition $
 - Just restart the phone, and see if Android still works
 
 ### Preparing necessary files
-- Download the Windows image and make sure it remains in the `Downloads` folder **of your internal storage**, NOT SD card.
+- Download the Windows image and make sure it remains in the `Download` folder **of your internal storage**, NOT SD card.
 - Download **WinInstaller** and leave it in your internal storage.
 - Download and install the [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA), then open it and grant it root access. Do not do anything else inside the app yet.
 - Reboot to the modified TWRP. Flash it again if it has been replaced by MIUI recovery.
