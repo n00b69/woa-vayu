@@ -7,11 +7,13 @@
 ### Prerequisites
 - A rooted POCO X3 Pro
 
+- [Termux](https://play.google.com/store/apps/details?id=com.termux) (only if you do not have any custom recovery installed)
+
+- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
+
 - [Vayu WinInstaller](https://github.com/Kumar-Jy/WinInstaller/releases/tag/Vayu_WinInstaller)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
-
-- [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
 
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
@@ -22,11 +24,16 @@
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woahelperchat).
 
 ### Flash the modified TWRP
-> While in fastboot mode, replace `path\to\moddedtwrp.img` with the actual path of the image.
->
-> If you don't have a PC, you can flash the modified TWRP through any non-stock recovery.
+> If you have a custom recovery installed, you can install the modified TWRP through there instead
+- Download the modified TWRP, rename it to **TWRP.img**, and leave in the `Download` folder **of your internal storage**.
+- Download **Termux**, open it, and grant it root access.
+- Run the below command in Termux to flash TWRP:
 ```cmd
-fastboot flash recovery path\to\moddedtwrp.img reboot recovery
+su -c dd if=/sdcard/Download/TWRP.img of=/dev/block/by-name/recovery
+```
+- Run the below command in Termux to reboot into TWRP:
+```cmd
+su -c reboot recovery
 ```
 
 #### Opening TWRP terminal
