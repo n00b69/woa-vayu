@@ -48,9 +48,6 @@ su -c reboot recovery
 partition $
 ```
 
-#### Rooting your phone
-- If your phone isn't already rooted, you can flash Magisk at this point using the instructions in [the root guide](root.md), else continue to the next step.
-
 ### Check if Android still starts
 - Just restart the phone, and see if Android still works
 
