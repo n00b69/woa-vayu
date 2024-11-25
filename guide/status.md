@@ -19,7 +19,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [x] SD card
 - [x] SMS
 - [x] Touchscreen
-- [x] LTE
+- [x] LTE ```SIM card must be in SIM1 (MicroSD slot)```
 - [x] Microphone ```Bottom microphone only```
 - [x] UFS
 - [x] USB
