@@ -15,7 +15,7 @@
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
-- [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ### Notes
 > [!WARNING]  
