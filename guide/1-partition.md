@@ -136,7 +136,7 @@ adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
 
 </details>
 
-#### Method 2: Manual partitioning 
+#### Method 2: Automatic partitioning 
 
 <details>
   <summary><strong>Click here for method 2</strong></summary> 
