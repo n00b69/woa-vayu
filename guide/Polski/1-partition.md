@@ -71,7 +71,7 @@ print
 ``` 
 
 #### Usuwanie userdata
-> Zamień **$** na numer partycji **userdata**, który powinien wynosić **31**
+> Zamień **$** na numer partycji **userdata**, który powinien wynosić **32**
 ```cmd
 rm $
 ``` 
@@ -99,7 +99,7 @@ mkpart win ntfs 70.3GB -0MB
 ``` 
 
 #### Tworzenie bootowalnego ESP
-> Użyj `print`, aby zobaczyć wszystkie partycje. Zamień "$" na numer partycji ESP, który powinien wynosić **32**
+> Użyj `print`, aby zobaczyć wszystkie partycje. Zamień "$" na numer partycji ESP, który powinien wynosić **33**
 ```cmd
 set $ esp on
 ``` 
