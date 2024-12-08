@@ -79,7 +79,7 @@ print
 ``` 
 
 #### Removing userdata
-> Replace **$** with the number of the **userdata** partition, which should be **32**
+> Replace **$** with the number of the **userdata** partition, which should be **31**
 ```cmd
 rm $
 ``` 
