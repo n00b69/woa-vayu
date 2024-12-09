@@ -7,7 +7,7 @@
 ### Dlaczego jest to potrzebne?
 Jeśli chcesz odinstalować system Windows, używa się tego zamiast ręcznego usuwania partycji, aby uniknąć błędów ludzkich + napisania całego dedykowanego przewodnika na temat samego odinstalowywania.
 
-Jeśli chcesz ponownie zablokować program rozruchowy (bootloader), musisz mieć zapasową tablicę partycji.
+Jeśli chcesz ponownie zablokować bootloader, musisz mieć domyślną tablicę partycji.
 
 ### Wymagania
 - [ADB i Fastboot](https://developer.android.com/studio/releases/platform-tools)
@@ -16,7 +16,7 @@ Jeśli chcesz ponownie zablokować program rozruchowy (bootloader), musisz mieć
 
 ### Instrukcje odinstalowania
 > [!Important]
-> Istnieje bardzo małe prawdopodobieństwo, że ten przewodnik nie zadziała, jeśli tablica partycji jest całkowicie popieprzona. Jeśli później nie będziesz mógł uruchomić systemu odzyskiwania/Androida, będziesz musiał ponownie sflashować urządzenie za pomocą EDL
+> Istnieje bardzo małe prawdopodobieństwo, że ten przewodnik nie zadziała, jeśli tablica partycji jest całkowicie popieprzona. Jeśli później nie będziesz mógł uruchomić systemu odzyskiwania/Androida, będziesz musiał ponownie sflashować urządzenie za pomocą EDL.
 
 Poradnik dotyczący korzystania z EDL znajdziesz [tutaj](edl.md).
 
@@ -28,7 +28,6 @@ adb reboot bootloader
 
 #### Przywróć GPT
 > Zastąp ```ścieżka\do\gpt_both0.bin``` ścieżką do pliku gpt_both0.bin
-
 ```cmd
 fastboot flash partition:0 ścieżka\do\gpt_both0.bin
 ```
