@@ -1,6 +1,6 @@
 # Running Windows on the POCO X3 Pro
 
-There are three methods to install Windows. Select the method you would like to use below.
+There are two methods to install Windows. Select the method you would like to use below.
 
 | **Install Windows manually** | **Install Windows using automated scripts**
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------
