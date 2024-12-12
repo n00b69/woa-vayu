@@ -9,7 +9,7 @@
 ## ⚠️ Uwaga
 Nie ponosimy odpowiedzialności za uszkodzone urządzenia, brakujące partycje odzyskiwania, niedziałającą linię fabryczną Xiaomi ~~pracownicy~~ kowboje, martwe pmic, martwe chinczyki, martwe karty SIM, martwe układy wyświetlacza, martwy procesor, wszelkie wybryki Xiaomi, eksplodujące baterie, martwe koty lub psy, wojny nuklearne lub zostaniesz zwolniony, ponieważ zapomniałeś ponownie uruchomić Androida, aby włączyć alarm.
 
-Ten projekt jest na wczesnym etapie, wszystkie pliki tutaj zostały przesłane przez innych użytkowników, tutaj znajdziesz przewodnik z działającymi plikami, które udało nam się zdobyć. Jest to delikatny proces, rób to na własne ryzyko i dokładnie postępuj zgodnie ze wszystkimi krokami.
+Wszystkie pliki tutaj zostały przesłane przez innych użytkowników, tutaj znajdziesz przewodnik z działającymi plikami, które udało nam się zdobyć. Jest to delikatny proces, rób to na własne ryzyko i dokładnie postępuj zgodnie ze wszystkimi krokami.
 
 **JEŚLI NIE CZUJESZ SIĘ NA SIŁACH W INTEGERENCJE SWOJEGO TELEFONU LUB JEGO TABLICY GPT LUB MASZ OBAWY ZEPSUCIA SWOJEGO URZĄDZENIA, KLIKNIJ TERAZ!!! ZOSTAŁEŚ OSTRZEŻONY, JEŚLI ZEPSUJESZ SWOJE URZĄDZENIE, JESTEŚ NA WŁASNĄ ODPOWIEDZIALNOŚĆ!!! PONOWNIE! ZOSTAŁEŚ OSTRZEŻONY!!!**
 
