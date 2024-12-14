@@ -18,7 +18,12 @@ If you want to relock your bootloader you'll need your partition table to be sto
 
 ## New method
 
+### Switch to Android
+> Or your device will not boot into Android after uninstalling Windows
+- Run the **Switch to Android** or **Android** shortcut on your desktop, or flash a **boot.img** backup in fastboot/recovery.
+
 ### Flash and boot modified recovery
+> Replace `path\to\moddedtwrp.img` with the actual path to the modded recovery image
 ```cmd
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
@@ -32,6 +37,10 @@ adb shell restore
 
 ## Old method 
 > In case the new one didn't work
+
+### Switch to Android
+> Or your device will not boot into Android after uninstalling Windows
+- Run the **Switch to Android** or **Android** shortcut on your desktop, or flash a **boot.img** backup in fastboot/recovery.
 
 ### Restore GPT
 > Replace ```path\to\gpt_both0.bin``` with the path to the gpt_both0.bin file.
