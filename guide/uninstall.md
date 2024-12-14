@@ -28,7 +28,7 @@ If you want to relock your bootloader you'll need your partition table to be sto
 fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```
 
-#### Execute the restore script
+### Execute the restore script
 ```cmd
 adb shell restore
 ```
