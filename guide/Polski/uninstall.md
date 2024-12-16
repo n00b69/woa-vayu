@@ -20,19 +20,24 @@ Jeśli chcesz ponownie zablokować bootloader, musisz mieć domyślną tablicę 
 
 Poradnik dotyczący korzystania z EDL znajdziesz [tutaj](edl.md).
 
-#### Uruchom komputer w trybie fastboot
+### Switch to Android
+> Or your device will not boot into Android after uninstalling Windows
+- Run the **Switch to Android** or **Android** shortcut on your desktop, or flash a **boot.img** backup in fastboot/recovery.
+
+### Uruchom komputer w trybie fastboot
 > Przytrzymaj przycisk zmniejszania głośności + przycisk zasilania, gdy telefon jest wyłączony, lub uruchom następujące polecenie podczas uruchamiania
 ```cmd
 adb reboot bootloader
 ```
 
-#### Przywróć GPT
+### Przywróć GPT
 > Zastąp ```ścieżka\do\gpt_both0.bin``` ścieżką do pliku gpt_both0.bin
 ```cmd
 fastboot flash partition:0 ścieżka\do\gpt_both0.bin
 ```
 
-#### Usuń dane użytkownika, aby uniknąć pętli rozruchowej i przywrócić rozmiar FS
+#### Usuń dane użytkownika
+> Aby uniknąć pętli rozruchowej i przywrócić rozmiar FS
 ```cmd
 fastboot -w
 ```
