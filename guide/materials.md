@@ -2,7 +2,7 @@
 
 # Running Windows on the POCO X3 Pro
 
-# Useful apps and instructions for Windows on Xiaomi pad 5
+# Useful apps and instructions for Windows
 
 ## List of supported apps/games
 This is by no means a comprehensive list, it simply lists apps/games that have been tested by the community
