@@ -18,7 +18,7 @@ Listę dedykowanego oprogramowania ARM znajdziesz także [pod tym linkiem](https
 > Jest to zalecane, ponieważ ten dysk nie powinien być modyfikowany, gdyż niektóre aplikacje mogą próbować na nim zapisywać dane
 
 - Otwórz okno wiersza poleceń i uruchom ```diskpart```
-- Uruchom ```lista woluminów``, aby zobaczyć wszystkie dostępne woluminy
+- Uruchom ```lista woluminów```, aby zobaczyć wszystkie dostępne woluminy
 - Wybierz dysk oznaczony literą D za pomocą ```wybierz wolumin $```, zastępując „$” numerem woluminu
 - Usuń literę za pomocą ```usuń literę d```
 - Wyjdź z dysku za pomocą ```exit```
