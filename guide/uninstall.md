@@ -42,8 +42,8 @@ adb shell restore
 > Or your device will not boot into Android after uninstalling Windows
 - Run the **Switch to Android** or **Android** shortcut on your desktop, or flash a **boot.img** backup in fastboot/recovery.
 
-### Uruchom komputer w trybie fastboot
-> Przytrzymaj przycisk zmniejszania głośności + przycisk zasilania, gdy telefon jest wyłączony, lub uruchom następujące polecenie podczas uruchamiania
+### Boot into fastboot mode
+> Hold the volume down + power button while the phone is turned off, or run the following command while it is booted
 ```cmd
 adb reboot bootloader
 ```
