@@ -42,6 +42,12 @@ adb shell restore
 > Or your device will not boot into Android after uninstalling Windows
 - Run the **Switch to Android** or **Android** shortcut on your desktop, or flash a **boot.img** backup in fastboot/recovery.
 
+### Uruchom komputer w trybie fastboot
+> Przytrzymaj przycisk zmniejszania głośności + przycisk zasilania, gdy telefon jest wyłączony, lub uruchom następujące polecenie podczas uruchamiania
+```cmd
+adb reboot bootloader
+```
+
 ### Restore GPT
 > Replace ```path\to\gpt_both0.bin``` with the path to the gpt_both0.bin file.
 ```cmd
