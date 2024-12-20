@@ -34,11 +34,15 @@ Wszystkie pliki tutaj zostały przesłane przez innych użytkowników, tutaj zna
 - [Instrukcje odinstalowania](uninstall.md)
 
 
+## Maintainers
+[<img alt="remtrik" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69907487?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/remtrik)
+[<img alt="degdag" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22778181?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/degdag)
+
+
 ## Współtwórcy
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
 [<img alt="Morc" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13377926?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TheMorc)
 [<img alt="map220v" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14368485?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/map220v)
-[<img alt="degdag" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22778181?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/degdag)
 [<img alt="halal-beef" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78730004?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/halal-beef)
 [<img alt="Renegade Project" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63859504?s=200&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/edk2-porting)
 [<img alt="gus33000" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/3755345?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/gus33000)
