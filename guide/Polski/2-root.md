@@ -39,11 +39,11 @@ fastboot reboot
 
 ### Kopiowanie zrootowanego obrazu rozruchu
 > Gdy już twój telefon się włączy
-- Na ekranie telefonu może pojawić się prośba o udzielenie uprawnień superużytkownika Powłoce. Jeśli tak się stanie, udziel dostępu.
-- If the command fails, open **Magisk**, click on `Superuser`, find **Shell**, and grant it access.
 ```cmd
 adb shell "su -c cp /dev/block/by-name/boot /sdcard/rooted_boot.img" & adb pull /sdcard/rooted_boot.img
 ```
+- Na ekranie telefonu może pojawić się prośba o udzielenie uprawnień superużytkownika Powłoce. Jeśli tak się stanie, udziel dostępu.
+- If the command fails, open **Magisk**, click on `Superuser`, find **Shell**, and grant it access.
 
 ## [Następny krok: Instalacja Windowsa](3-install.md)
 
