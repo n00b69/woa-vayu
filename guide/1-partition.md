@@ -55,7 +55,9 @@ adb pull /dev/block/by-name/boot boot.img
 > If you are using older Android versions, it is mandatory to flash the latest firmware (this does not affect your current ROM), or Windows will not boot.
 >
 > If you are on recent Android versions, it is still recommended to do so.
-- Download the **vayu firmware.zip** and put it somewhere on your phone, then flash it by selecting it in the **Install** button in TWRP.
+- Download the **vayu firmware.zip** and put it somewhere on your phone.
+- Select the **Install** button in TWRP, locate the firmware file, then install it.
+- There is no need to reboot yet, stay in TWRP for the next few steps.
 
 ### Partitioning your device
 > There are two methods to partition your device. Please select the method you would like to use below. 
