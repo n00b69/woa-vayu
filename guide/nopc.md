@@ -11,6 +11,8 @@
 
 - [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
 
+- [Latest Vayu firmware](https://xmfirmwareupdater.com/firmware/vayu/)
+
 - [Vayu WinInstaller](https://github.com/Kumar-Jy/WinInstaller/releases/tag/Vayu_WinInstaller)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
@@ -54,12 +56,14 @@ partition $
 ### Preparing necessary files
 - Download the Windows image and make sure it remains in the `Download` folder **of your internal storage**, NOT SD card.
 - Download **WinInstaller** and leave it in your internal storage.
+- Download the **vayu firmware.zip** and leave it in your internal storage.
 - Download and install the [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK), then open it and grant it root access. Do not do anything else inside the app yet.
 - Reboot to the modified TWRP. Flash it again if it has been replaced by MIUI recovery.
 
 ### Flashing WinInstaller
-- In TWRP, select **Install** and then locate **WinInstaller.zip** and flash it.
-- Wait untill all processes complete and your device boots into Windows. This will take around 15-20 minutes.
+- In TWRP, select **Install** and then locate **vayu firmware.zil** and flash it.
+- After it flashed the firmware, do not reboot. Instead, also flash **WinInstaller.zip**.
+- Wait until all processes complete and your device boots into Windows. This will take around 15-20 minutes.
 
 > [!Tip]
 > If you wish to skip the Microsoft Account login, press the **I don't have internet** button in the WiFi page, then when prompted, press the **Continue with limited setup** button.
