@@ -11,6 +11,8 @@
 
 - [Modified TWRP](https://github.com/n00b69/woa-vayu/releases/tag/Recovery)
 
+- [Latest Vayu firmware](https://xmfirmwareupdater.com/firmware/vayu/)
+
 ### Notes
 > [!WARNING]  
 > All your data will be erased! Back up now if needed.
@@ -47,6 +49,13 @@ fastboot flash recovery path\to\moddedtwrp.img reboot recovery
 ```cmd
 adb pull /dev/block/by-name/boot boot.img
 ```
+
+### Flashing latest firmware
+> [!Important]
+> If you are using older Android versions, it is mandatory to flash the latest firmware (this does not affect your current ROM), or Windows will not boot.
+>
+> If you are on recent Android versions, it is still recommended to do so.
+- Download the **vayu firmware.zip** and put it somewhere on your phone, then flash it by selecting it in the **Install** button in TWRP.
 
 ### Partitioning your device
 > There are two methods to partition your device. Please select the method you would like to use below. 
