@@ -133,13 +133,9 @@ quit
 - Po prostu uruchom ponownie telefon i sprawdź, czy Android nadal działa 
 
 ### Formatting Windows and ESP drives
-> Reboot into the modded recovery, then run the below two commands
+> Reboot into the modded recovery, then run the below command
 ```cmd
-adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINVAYU
-``` 
-
-```cmd
-adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPVAYU
+adb shell format
 ``` 
 
 </details> 
