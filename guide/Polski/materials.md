@@ -5,55 +5,52 @@
 ## Dodatkowe materiały
 > Poniżej znajdziesz listę usprawnień i materiałów dla systemu Windows na urządzeniu ARM
 
-### Lista obsługiwanych aplikacji/gier
-Nie jest to w żadnym wypadku pełna lista, zawiera po prostu listę aplikacji/gier przetestowanych przez społeczność
-[Link można znaleźć tutaj](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-Listę dedykowanego oprogramowania ARM znajdziesz także [pod tym linkiem](https://armrepo.ver.lt/)
+### List of supported apps/games
+> These are by no means comprehensive lists, they do however list apps/games that have been tested by the community
 
-#### Skończone!
+- [Renegade Google Sheets list](https://docs.google.com/spreadsheets/d/1XYuoySgYQE0HL573sA-0RGMX7I4lt5rWJuQ8Z8yRJNY/edit?usp=drivesdk)
 
-### Ukryj dysk D (partycję modemu)
-> [!WARNING]
-> Jest to zalecane, ponieważ ten dysk nie powinien być modyfikowany, gdyż niektóre aplikacje mogą próbować na nim zapisywać dane
+- [ARM Repo (native ARM software)](https://armrepo.ver.lt/)
 
-- Otwórz okno wiersza poleceń i uruchom ```diskpart```
-- Uruchom ```list volume```, aby zobaczyć wszystkie dostępne woluminy
-- Wybierz dysk oznaczony literą D za pomocą ```select volume $```, zastępując "$" numerem woluminu
-- Usuń literę za pomocą ```remove letter d```
-- Wyjdź z dysku za pomocą ```exit```
+- [News & supported applications](https://windowsonarm.org/)
 
-#### Skończone!
-
-### Przełączanie trybu hosta USB
-> [!warning]
-> Wyłącz tryb hosta USB, jeśli używasz koncentratora USB Poweref, ponieważ może to nieodwracalnie uszkodzić urządzenie. Jeśli nie korzystasz z zasilanego koncentratora USB, włącz tryb hosta USB, w przeciwnym razie nie będziesz mógł używać żadnych urządzeń USB.
-
-Uruchom [Kontrola hosta USB](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control), aby włączyć/wyłączyć tryb hosta USB, potwierdź, że chcesz wyłączyć/ włącz tryb hosta USB, a następnie potwierdź ponowne uruchomienie
-
-#### Skończone!
-
-### Zainstaluj pakiet Microsoft Office/Microsoft 365
-- Pobierz ten [plik ISO](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) na telefon
-- Kliknij prawym przyciskiem myszy plik ISO i wybierz Zamontuj, aby otworzyć go w Eksploratorze
-- Kliknij dwukrotnie ```Office Tool Plus.exe```, aby uruchomić kreatora instalacji
-- W wyświetlonym oknie kliknij „Tak”.
-- Poczekaj na zakończenie instalacji
-
-#### Skończone!
-
-### Aktywuj system Windows/Office
-Postępuj zgodnie z instrukcjami Massgravel [tutaj] (https://github.com/massgravel/Microsoft-Activation-Scripts)
-
-#### Skończone!
+#### Finished!
 
 
+### Toggling USB host mode
+> [!Warning]
+> Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
+
+- Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, then confirm that you want to disable/enable USB host mode.
+- If USB host mode is currently enabled and USB does not work, turn it off, then back on.
+
+#### Finished!
 
 
+### Install Microsoft Office
+- Go to [Gravesoft's Office installer page](https://gravesoft.dev/office_c2r_links).
+- Download the installer that fits your purposes. Make sure you select `Online x64`.
+- Open the `setup.exe` and follow any instructions provided within.
+
+#### Finished!
 
 
+### Activate Windows / Office
+- Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
+
+#### Finished!
 
 
+### Making the keyboard float
+> [!WARNING]  
+> Make sure these steps are done on the device running Windows, not your computer!
+
+- Open CMD as an administrator and run ```reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Scaling /v MonitorSize```
+- Press `y` then enter.
+- Reboot your device.
+
+##### Finished!
 
 
 
