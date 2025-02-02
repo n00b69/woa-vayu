@@ -1,7 +1,7 @@
 <img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
 # Windows na POCO X3 Pro
-[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/woahelperchat)
+[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winonvayualt)
 
 ## Wybierz swój język
 [`English`](/README.md) | **Polski**
