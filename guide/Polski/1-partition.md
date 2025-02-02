@@ -16,7 +16,7 @@
 ### Uwagi
 > [!Warning]  
 > 
-> NIE URUCHAMIAJ PONOWNIE TELEFONU! Jeśli uważasz, że popełniłeś błąd, poproś o pomoc na [Telegramie](https://t.me/woahelperchat.
+> NIE URUCHAMIAJ PONOWNIE TELEFONU! Jeśli uważasz, że popełniłeś błąd, poproś o pomoc na [Telegramie](https://t.me/winonvayualt)
 > 
 > Nie uruchamiaj wszystkich poleceń na raz, wykonuj je po kolei!
 >
