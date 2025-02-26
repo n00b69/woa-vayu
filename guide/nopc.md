@@ -61,7 +61,7 @@ partition $
 - Reboot to the modified TWRP. Flash it again if it has been replaced by MIUI recovery.
 
 ### Flashing WinInstaller
-- In TWRP, select **Install** and then locate **vayu firmware.zil** and flash it.
+- In TWRP, select **Install** and then locate **vayu firmware.zip** and flash it.
 - After it flashed the firmware, do not reboot. Instead, also flash **WinInstaller.zip**.
 - Wait until all processes complete and your device boots into Windows. This will take around 15-20 minutes.
 
