@@ -7,7 +7,10 @@
 # THIS GUIDE IS NO LONGER USED
 # PLEASE USE THE NEW GUIDE BELOW
 
+
 https://github.com/woa-vayu/POCOX3Pro-Guides
+
+If you are, however, looking for the no-PC instructions, you will find them [here](/guide/nopc.md)
 
 
 
