@@ -23,7 +23,7 @@
 > [!WARNING]  
 > All your data will be erased! Back up now if needed.
 > 
-> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woahelperchat).
+> DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/wininstaller).
 
 ### Flash the modified TWRP
 > If you have a custom recovery installed, you can install the modified TWRP through there instead
