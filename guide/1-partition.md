@@ -139,7 +139,13 @@ quit
 > Reboot into the modded recovery, then run the below command
 ```cmd
 adb shell format
-``` 
+```
+
+### Fixing the GPT
+> If you do not do this, Windows may break your device
+```cmd
+adb shell fixgpt
+```
 
 </details>
 
@@ -149,11 +155,11 @@ adb shell format
   <summary><strong>Click here for method 2</strong></summary> 
 
 ### Run the partitioning script
-> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
-> 
-> If it asks you to run it once again, do so
+> After running the script, enter the size (in GB) that you want Windows to be
+>
+> Do not write **GB**, just the number (for example **50**)
 ```cmd
-adb shell partition $
+adb shell partition
 ``` 
 
 ### Check if Android still starts
