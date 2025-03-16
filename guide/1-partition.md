@@ -78,7 +78,7 @@ adb shell
 ```
 
 ### Preparing for partitioning
-> [!Note]
+$${\color{blue}🟦 Note}$$
 > If at any moment in parted you see an error prompting you to type "Yes/No" or "Ignore/Cancel", type `Yes` or `Ignore` depending on the situation to ignore the errors and continue.
 >
 > If you see any **udevadm** errors, you can ignore these as well.
