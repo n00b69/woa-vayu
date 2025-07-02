@@ -25,6 +25,9 @@
 > 
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/wininstaller).
 
+### Root your device
+> If your device is already rooted, skip to the next step, else root it using [these instructions](https://github.com/n00b69/woa-vayu/blob/main/guide/root.md) (you will need a PC to do so)
+
 ### Flash the modified TWRP
 > If you have a custom recovery installed, you can install the modified TWRP through there instead
 - Download the modified TWRP, rename it to **TWRP.img**, and leave in the `Download` folder **of your internal storage**.
