@@ -1,3 +1,5 @@
+[English](README.md) | **Türkçe**
+
 <img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Poco X3 Pro üzerinde çalışan Windows 11">
 
 # POCO X3 Pro Üzerinde Windows Çalıştırma
