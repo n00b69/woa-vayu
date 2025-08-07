@@ -1,3 +1,5 @@
+**English** | [**Türkçe**](README_tr-TR.md)
+
 <img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
@@ -61,21 +63,4 @@ All the files here have been contributed by other users, here you will find a gu
 [<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
 [<img alt="Dawid2849" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/77780707?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Dawid2849)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[<img alt="yusufyorunc" src="https://images.weserv.nl/?url=https://github.com/yusufyorunc.png&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/yusufyorunc)
