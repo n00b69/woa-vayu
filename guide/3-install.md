@@ -1,3 +1,5 @@
+**English** | [Türkçe](/guide/tr-TR/3-install_tr-TR.md)
+
 <img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
@@ -104,23 +106,3 @@ fastboot boot path\to\vayu-uefi.img
 Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
 ## [Last step: Setting up dualboot](/guide/4-dualboot.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
