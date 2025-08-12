@@ -1,3 +1,5 @@
+**English** | [Türkçe](/guide/tr-TR/installation-selection_tr-TR.md)
+
 # Running Windows on the POCO X3 Pro
 
 There are two methods to install Windows. Select the method you would like to use below.

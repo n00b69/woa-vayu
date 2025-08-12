@@ -1,3 +1,5 @@
+**English** | [Türkçe](/guide/tr-TR/2-root_tr-TR.md)
+
 <img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
@@ -46,48 +48,3 @@ adb shell "su -c cp /dev/block/by-name/boot /sdcard/rooted_boot.img" & adb pull 
 - If the command fails, open **Magisk**, click on `Superuser`, find **Shell**, and grant it access.
 
 ## [Next step: Installing Windows](3-install.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,3 +1,5 @@
+**English** | [Türkçe](/guide/tr-TR/4-dualboot_tr-TR.md)
+
 <img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Windows 11 running on a Poco X3 Pro">
 
 # Running Windows on the POCO X3 Pro
@@ -35,22 +37,3 @@ This guide assumes you are rooted, if you aren't, please follow [this guide](roo
 > You can use the **BACK UP BOOT IMAGE** feature in the WOA Helper app to do so.
 
 ## Finished!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
