@@ -1,13 +1,12 @@
-[English](README.md) | **Türkçe**
-
 <img align="right" src="https://github.com/n00b69/woa-vayu/blob/main/vayu.png" width="350" alt="Poco X3 Pro üzerinde çalışan Windows 11">
 
 # POCO X3 Pro Üzerinde Windows Çalıştırma
-
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram\&style=flat-square)](https://t.me/WaLoVayu)
 
-## ⚠️ Uyarı
+# Select language
+[**English**](README.md) | Türkçe
 
+## ⚠️ Uyarı
 Bu işlemler sonucunda tuğla olmuş(brick) aygıtlar, eksik kurtarma bölümleri, ölmüş xiaomi fabrika hattı ~~işçileri~~ kovboyları, bozuk microSD kartlar, arızalı PMIC’ler, kullanılamayan RAM, bozuk ekran denetleyici devreleri, ölü CPU’lar, Xiaomi/Poco kaynaklı aksaklıklar, ölen kedi veya köpekler, nükleer savaşlar veya alarm için Android’e dönmeyi unutmanız sonucu işten atılmanız konusunda sorumluluk kabul etmiyoruz.
 
 Buradaki tüm dosyalar diğer kullanıcılar tarafından sağlanmıştır; size sunduğumuz rehberde işe yarayan dosyaları bulacaksınız. Bu hassas bir süreçtir, tüm adımları dikkatle uygulayın ve yalnızca kendi sorumluluğunuzda gerçekleştirin.
